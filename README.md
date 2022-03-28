@@ -1,3 +1,14 @@
+#Informações para funcionamento
+1. -Baixar e Instalar Node.js
+      .Verificar instalação (digite no terminal)
+        	node -v
+	        npm -v
+2. -Baixar Visual Studio Code (de preferencia)
+3. git clone https://github.com/Lucas-Alipio/SearchRepo_React.js.git
+4. No terminal, dentro da pasta que o git clone fez (.....\SearchRepo_React.js>)
+      npm install
+      npm start
+#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
