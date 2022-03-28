@@ -1,4 +1,4 @@
-#Informações para funcionamento
+# Informações para funcionamento
 1. -Baixar e Instalar Node.js
       .Verificar instalação (digite no terminal)
         	node -v
