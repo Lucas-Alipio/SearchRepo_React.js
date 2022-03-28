@@ -58,27 +58,29 @@
 .control_list {
     position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     left: 70px;
-    width: fit-content;
+}
+
+.control_list ul {    
+    display: inline;
+    
+    width: 80em;
     border-style: double;
     border-color: #949292;
     border-radius: 0.4em;
     padding: 2px;
-}
-
-.control_list ul {  
     list-style-type: none;
-    vertical-align: top;
-
+    margin: 0.3em;
 }
 
 .control_list ul li {
     display: inline;
-    
+    padding: 2px;
+    text-align: center;
     width: 10em;
     height: 10em;
     
-    justify-content: space-between;
+
     margin-right: 25px;
 }

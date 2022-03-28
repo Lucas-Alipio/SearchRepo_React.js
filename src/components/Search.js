@@ -66,25 +66,28 @@ function Search () {
             )}
             
             <div className={styles.control_list}>
-                <ul>
-                    {repos.map((item) => (
-                        <div>
+                {repos.map((item) => (
+                    <ul>
 
-                            <li key={item.id}>
-                                <img src={item.repo.owner.avatar_url} alt='' width='5%' />
-                            </li>
+                        <li key={item.id}>
+                            <img src={item.repo.owner.avatar_url} alt='' width='10%' />
+                        </li>
 
-                            <li key={item.id}>
-                                Repo:{item.repo.name}
-                            </li>
+                        <li key={item.id}>
+                            Repo:{item.repo.name}
+                        </li>
 
-                            <li key={item.id}>
-                                Descrição:{item.repo.description}
-                            </li>
-                        
-                        </div>
-                    ))}
-                </ul>
+                        <li key={item.id}>
+                            Descrição:{item.repo.description}
+                        </li>
+
+                        <li key={item.id}>
+                            Forks:{item.repo.forks}
+                        </li>
+                    
+                    </ul>
+                ))}
+                
             </div>
         </div>
     )
