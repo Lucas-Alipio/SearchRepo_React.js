@@ -1,0 +1,84 @@
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.control h1 {
+    position: relative;
+    margin-top: 2.5em;
+    font-size: 3em;
+    color: #202020;
+}
+.control_logo{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: fit-content;
+}
+.control form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+}
+
+.control form input {
+    position: relative;
+    width: 30em;
+    margin-right: 0.5em;
+    padding: 1em;
+    border-radius: 0.2em;
+    border: none;
+    font-size: 120%;
+}
+
+.control input::placeholder {
+    color: #7b7b7b;
+}
+
+.control form button{
+    position: relative;
+    width: 8em;
+    padding: 1em;
+    border-radius: 0.4em;
+    border: none;
+    font-size: 125%;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #1bb12ff1;
+}
+
+.control form button:hover {
+    color: black;
+    background-color: #67ff02;
+}
+
+.control_list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 70px;
+    width: fit-content;
+    border-style: double;
+    border-color: #949292;
+    border-radius: 0.4em;
+    padding: 2px;
+}
+
+.control_list ul {  
+    list-style-type: none;
+    vertical-align: top;
+
+}
+
+.control_list ul li {
+    display: inline;
+    
+    width: 10em;
+    height: 10em;
+    
+    justify-content: space-between;
+    margin-right: 25px;
+}

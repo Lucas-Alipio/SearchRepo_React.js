@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html, body, #root {
+  background-color: #f4f8f725;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#root::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("./images/fundo2.png");
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.07;
+}
